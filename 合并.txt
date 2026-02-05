@@ -1,0 +1,84 @@
+[Adblock Plus 2.0]
+! Title: 合并过滤规则
+! Version: 20260204
+! Expires: 1 day
+! Homepage: 
+! License: MIT license
+! 说明：参考上游
+
+! 一、国内常用过滤规则
+%include https://github.com/xinggsf/Adblock-Plus-Rule/raw/refs/heads/master/rule.txt
+%include https://github.com/xinggsf/Adblock-Plus-Rule/raw/refs/heads/master/mv.txt
+%include https://github.com/xinggsf/Adblock-Plus-Rule/raw/refs/heads/master/minority-mv.txt
+%include https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts
+%include https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt
+%include https://raw.githubusercontent.com/banbendalao/ADgk/master/kill-baidu-ad.txt
+%include https://raw.githubusercontent.com/zsakvo/AdGuard-Custom-Rule/master/rule/zhihu-strict.txt
+%include https://cdn.jsdelivr.net/gh/privacy-protection-tools/anti-AD@master/anti-ad-easylist.txt
+%include https://raw.githubusercontent.com/BlueSkyXN/AdGuardHomeRules/master/all.txt
+%include https://raw.githubusercontent.com/BlueSkyXN/AdGuardHomeRules/master/skyrules.txt
+%include https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
+%include https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt
+%include https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt
+
+! 二、AdGuard官方系列过滤规则
+%include https://github.com/AdguardTeam/AdGuardSDNSFilter/raw/gh-pages/Filters/rules.txt
+%include https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
+%include https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt
+%include https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt
+%include https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/MobileFilter/sections/adservers.txt
+%include https://adguardteam.github.io/HostlistsRegistry/assets/filter_59.txt
+%include https://adguardteam.github.io/HostlistsRegistry/assets/filter_53.txt
+%include https://adguardteam.github.io/HostlistsRegistry/assets/filter_29.txt
+%include https://adguardteam.github.io/HostlistsRegistry/assets/filter_21.txt
+
+! 三、经典通用过滤规则
+%include https://easylist.to/easylist/easylist.txt
+%include https://easylist-downloads.adblockplus.org/easylistchina.txt
+%include https://easylist.to/easylist/easyprivacy.txt
+%include https://easylist.to/easylist/fanboy-annoyance.txt
+%include https://easylist-downloads.adblockplus.org/antiadblockfilters.txt
+%include https://www.i-dont-care-about-cookies.eu/abp/
+%include https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&showintro=1&mimetype=plaintext
+%include https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+%include https://someonewhocares.org/hosts/zero/hosts
+%include https://hblock.molinero.dev/hosts_adblock.txt
+%include https://abp.oisd.nl/basic/
+%include https://adguardteam.github.io/HostlistsRegistry/assets/filter_27.txt
+%include https://adguardteam.github.io/HostlistsRegistry/assets/filter_70.txt
+%include https://cdn.jsdelivr.net/gh/neoFelhz/neohosts@gh-pages/full/hosts
+
+! 四、设备/厂商专项过滤规则
+%include https://github.com/nextdns/metadata/tree/master/privacy/native
+%include https://adguardteam.github.io/HostlistsRegistry/assets/filter_67.txt
+%include https://adguardteam.github.io/HostlistsRegistry/assets/filter_61.txt
+%include https://adguardteam.github.io/HostlistsRegistry/assets/filter_60.txt
+%include https://adguardteam.github.io/HostlistsRegistry/assets/filter_66.txt
+%include https://adguardteam.github.io/HostlistsRegistry/assets/filter_65.txt
+%include https://adguardteam.github.io/HostlistsRegistry/assets/filter_63.txt
+%include https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV-AGH.txt
+%include https://raw.githubusercontent.com/DandelionSprout/adfilt/master/GameConsoleAdblockList.txt
+
+! 五、安全防护类过滤规则
+%include https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt
+%include https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/adguard.txt
+%include https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt
+%include https://raw.githubusercontent.com/mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites/master/hacked-domains.list
+%include https://adguardteam.github.io/HostlistsRegistry/assets/filter_30.txt
+%include https://adguardteam.github.io/HostlistsRegistry/assets/filter_12.txt
+%include https://adguardteam.github.io/HostlistsRegistry/assets/filter_55.txt
+%include https://adguardteam.github.io/HostlistsRegistry/assets/filter_44.txt
+%include https://adguardteam.github.io/HostlistsRegistry/assets/filter_18.txt
+%include https://adguardteam.github.io/HostlistsRegistry/assets/filter_42.txt
+%include https://adguardteam.github.io/HostlistsRegistry/assets/filter_11.txt
+%include https://adguardteam.github.io/HostlistsRegistry/assets/filter_50.txt
+
+! 六、专项功能过滤规则
+%include https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt
+%include https://adguardteam.github.io/HostlistsRegistry/assets/filter_39.txt
+%include https://adguardteam.github.io/HostlistsRegistry/assets/filter_46.txt
+%include https://adguardteam.github.io/HostlistsRegistry/assets/filter_47.txt
+%include https://adguardteam.github.io/HostlistsRegistry/assets/filter_68.txt
+%include https://adguardteam.github.io/HostlistsRegistry/assets/filter_71.txt
+%include https://adguardteam.github.io/HostlistsRegistry/assets/filter_54.txt
+%include https://adguardteam.github.io/HostlistsRegistry/assets/filter_31.txt
