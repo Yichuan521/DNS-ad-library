@@ -2,7 +2,7 @@
 ! Title: 合并过滤规则
 ! Version: 20260204
 ! Expires: 1 day
-! Homepage: 
+! Homepage: https://github.com/Yichuan521/DNS-AD-Library/raw/refs/heads/main/%E5%90%88%E5%B9%B6.txt
 ! License: MIT license
 ! 说明：参考上游
 
@@ -81,4 +81,5 @@
 %include https://adguardteam.github.io/HostlistsRegistry/assets/filter_68.txt
 %include https://adguardteam.github.io/HostlistsRegistry/assets/filter_71.txt
 %include https://adguardteam.github.io/HostlistsRegistry/assets/filter_54.txt
+
 %include https://adguardteam.github.io/HostlistsRegistry/assets/filter_31.txt
